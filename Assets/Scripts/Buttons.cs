@@ -26,9 +26,19 @@ public class Buttons : MonoBehaviour {
         SceneManager.LoadScene("Difficulty", LoadSceneMode.Single); // load the difficulty menu
     }
 
+    public void onClickHiraganaMenu()
+    {
+        SceneManager.LoadScene("HiraganaMenu", LoadSceneMode.Single); // load hiragana
+    }
+
     public void onClickHiragana()
     {
         SceneManager.LoadScene("Hiragana", LoadSceneMode.Single); // load hiragana
+    }
+
+    public void onClickDakutenMenu()
+    {
+        SceneManager.LoadScene("DakutenMenu", LoadSceneMode.Single); // load Dakuten
     }
 
     public void onClickDakuten()
@@ -36,9 +46,19 @@ public class Buttons : MonoBehaviour {
         SceneManager.LoadScene("Dakuten", LoadSceneMode.Single); // load Dakuten
     }
 
+    public void onClickComboMenu()
+    {
+        SceneManager.LoadScene("ComboMenu", LoadSceneMode.Single); // load Combo
+    }
+
     public void onClickCombo()
     {
         SceneManager.LoadScene("Combo", LoadSceneMode.Single); // load Combo
+    }
+
+    public void onClickAllMenu()
+    {
+        SceneManager.LoadScene("AllMenu", LoadSceneMode.Single); // load All
     }
 
     public void onClickAll()
@@ -49,6 +69,21 @@ public class Buttons : MonoBehaviour {
     public void onClickInfinite()
     {
         SceneManager.LoadScene("Infinite", LoadSceneMode.Single); // load Infinite
+    }
+
+    public void onClickInfiniteDakuten()
+    {
+        SceneManager.LoadScene("InfiniteDakuten", LoadSceneMode.Single); // load Infinite
+    }
+
+    public void onClickInfiniteCombo()
+    {
+        SceneManager.LoadScene("InfiniteCombo", LoadSceneMode.Single); // load Infinite
+    }
+
+    public void onClickInfiniteAll()
+    {
+        SceneManager.LoadScene("InfiniteAll", LoadSceneMode.Single); // load Infinite
     }
 
     public void onClickChart()

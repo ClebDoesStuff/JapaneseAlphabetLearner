@@ -18,6 +18,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Difficulty.unity
     guid: 8849d7e327cbf3c408d6d4f29c3567f1
   - enabled: 1
+    path: Assets/Scenes/HiraganaMenu.unity
+    guid: 71164d1e58e99114d971c1af11adab50
+  - enabled: 1
+    path: Assets/Scenes/DakutenMenu.unity
+    guid: e3528ff60dcd09a4ea06d3b8b882009f
+  - enabled: 1
+    path: Assets/Scenes/ComboMenu.unity
+    guid: 263be8d9ebf5823408bd7414f21de983
+  - enabled: 1
+    path: Assets/Scenes/AllMenu.unity
+    guid: 0953464032ee8ac4f965ed3da6b7489b
+  - enabled: 1
     path: Assets/Scenes/Hiragana.unity
     guid: b8bfcffe0feefed4fb751b59a56ad838
   - enabled: 1
@@ -32,4 +44,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Infinite.unity
     guid: 1ab5075a3fbe9e94c800c4dce79b7791
+  - enabled: 1
+    path: Assets/Scenes/InfiniteDakuten.unity
+    guid: b397ff9ec768843428e9e415ea8e4b37
+  - enabled: 1
+    path: Assets/Scenes/InfiniteCombo.unity
+    guid: f3ee760f0018d204d9fde0a3e8b00c70
+  - enabled: 1
+    path: Assets/Scenes/InfiniteAll.unity
+    guid: 3c26bc7dafd09c54d989a5a6a741dfb9
   m_configObjects: {}
